@@ -1,0 +1,6 @@
+[2025-12-17 15:51:02] Processing POST. Ref: CC-251217-2D431, ID: 0
+[2025-12-17 15:51:02] Success. Redirecting to: modules/payment/payment-confirmation.php?payment_id=1
+[2025-12-17 16:25:48] Processing POST. Ref: CC-251217-DE1B1, ID: 0
+[2025-12-17 16:25:48] Success. Redirecting to: modules/payment/payment-confirmation.php?payment_id=2
+[2025-12-18 05:58:33] Processing POST. Ref: GC-251218-E0F56, ID: 5
+[2025-12-18 05:58:33] Success. Redirecting to: modules/payment/payment-confirmation.php?payment_id=5
