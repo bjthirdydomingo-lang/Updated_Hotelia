@@ -1,0 +1,56 @@
+Yes. That will work.
+
+A router does not need an ISP to create a LAN.
+It only needs power.
+
+How it works.
+
+* The router creates a local network
+* Devices connect by WiFi or LAN cable
+* The router assigns local IPs like 192.168.x.x
+* Your Hotelia server stays reachable inside that network
+
+This is the same idea as a phone hotspot.
+Hotspot is just a tiny router.
+
+What you need.
+
+* Any basic WiFi router
+* No WAN or Internet cable required
+* Plug in power only
+
+Setup steps.
+
+* Connect your PC to the router
+* Connect other devices to the same router
+* Check your PC IP with ipconfig
+* Example: 192.168.0.100
+* Open Hotelia using [http://192.168.0.100](http://192.168.0.100)
+
+Important settings.
+
+* Disable AP or Client Isolation
+* Enable DHCP
+* Use default subnet 192.168.x.x
+
+What not to do.
+
+* Do not use localhost
+* Do not use .dev hostnames
+* Do not bind Apache to 127.0.0.1 only
+
+Apache check.
+
+* Listen on 0.0.0.0:80
+* This allows other devices
+
+Result.
+
+* No ISP
+* No Internet
+* Full LAN access
+* Works offline
+* Stable for demos and testing
+
+This is exactly how hotels, cafes, and POS systems run offline networks.
+You are building the same thing, just smaller.
